@@ -12,8 +12,8 @@ Usage:
   CanHasFreeSpace [options]
 
 Options:
-  -i, --include <include>  A include to read from. If not supplied, will read from the include of the drive hosting this program. [default: C:\]
-  -o, --output <output>    A relative or absolute path to the output file. If not supplied, will output to a temporary location. [default: C:\Users\thors\AppData\Local\Temp\CanHasFreeSpace\data.csv]
+  -i, --include <include>  A include to read from. If not supplied, will read from the include of the drive hosting this program.
+  -o, --output <output>    A relative or absolute path to the output file. If not supplied, will output to a temporary location.
   --version                Show version information
   -?, -h, --help           Show help and usage information
 ```
