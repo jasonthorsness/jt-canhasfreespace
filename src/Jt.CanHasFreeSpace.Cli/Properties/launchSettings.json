@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Jt.CanHasFreeSpace.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": ""
+    }
+  }
+}
