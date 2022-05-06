@@ -60,7 +60,7 @@ RootCommand rootCommand = new()
     outputOption,
 };
 
-rootCommand.Description = "DiskSheet";
+rootCommand.Description = "Generates a CSV of allocation data from Windows file systems.";
 
 rootCommand.SetHandler(
     async (string include, string output) =>
