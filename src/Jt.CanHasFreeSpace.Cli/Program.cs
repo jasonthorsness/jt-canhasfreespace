@@ -11,7 +11,7 @@ Option<string> includeOption = new(
     new[] { "--include", "-i" },
     x =>
     {
-        string? includeValue = x.Tokens.SingleOrDefault().Value;
+        string? includeValue = x.Tokens?.SingleOrDefault()?.Value;
 
         if (includeValue == null)
         {
